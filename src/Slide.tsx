@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
 });
 
-interface SlideProps {
+export interface SlideProps {
   slide: {
     color: string;
     title: string;
