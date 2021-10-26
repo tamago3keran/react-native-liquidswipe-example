@@ -1,4 +1,4 @@
-import React, {ReactElement, ReactNode} from 'react';
+import React, {ReactElement} from 'react';
 import {Dimensions, Platform, StyleSheet, View} from 'react-native';
 import Animated, {
   Extrapolate,

@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {SliderBase, StyleSheet, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import Animated, {
   runOnJS,
   useAnimatedGestureHandler,
@@ -10,7 +10,7 @@ import Animated, {
 import {PanGestureHandler} from 'react-native-gesture-handler';
 import {snapPoint, useVector} from 'react-native-redash';
 
-import Wave, {HEIGHT, MARGIN_WIDTH, MIN_LEDGE, Side, WIDTH} from './Wave';
+import Wave, {HEIGHT, MARGIN_WIDTH, Side, WIDTH} from './Wave';
 import Button from './Button';
 
 const PREV = WIDTH;
